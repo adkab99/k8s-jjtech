@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   namespace: application
   name: my-app
+  namespace: application
   labels:
     app: my-app
 spec:
